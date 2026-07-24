@@ -15,7 +15,7 @@ npm install
 ```
 
 ### Step 3: Configure the credentials
-Write your configuration settings to `credentials.json` using the below format. Copy and paste it then replace the values on the right side with your own unique domain and token:
+Write your configuration settings to `credentials.json` using the below format. Copy and paste it into a new file with the aforementioned name then replace the values on the right side with your own unique domain and token:
 ```json
 {
     "token": "jow4235-253j-j25i-pi35-oj235oi2j35o",
