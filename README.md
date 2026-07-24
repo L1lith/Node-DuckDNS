@@ -36,7 +36,8 @@ pm2 start process.js
 
 Next if you'd like to make it start automatically on your device's boot you'll have to enable PM2 startup integration. This depends on which operating system you use.
 
-If you use **Windows**: 
+If you use **Windows**:
+
 [Follow these install instructions](https://github.com/jessety/pm2-installer#install)
 
 If you use **Linux, Mac or anything else** run this command:
