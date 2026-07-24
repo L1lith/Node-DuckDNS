@@ -1,5 +1,5 @@
 # Node DuckDNS client
-This is a [DuckDNS](https://duckdns.org) client in ~50 lines of non-uglified code with only 2 dependencies, making it easy to trust and easy to use anywhere NodeJS is supported. DuckDNS is a straightforward dynamic DNS service, making it easy to have a static domain name pointing to your computer even when your home network changes it's external ip address. 
+This is a [DuckDNS](https://duckdns.org) client in ~50 lines of non-uglified code with only 2 dependencies, making it easy to trust and easy to use anywhere NodeJS is supported. DuckDNS is a straightforward dynamic DNS service, making it easy to have a static domain name pointing to your computer even when your home network routinely changes it's external ip address. 
 
 ## Getting Started
 *Note for beginners:* these instructions expect that you can figure out very basic terminal usage (particularly the `cd` command), as well as have [git](https://git-scm.com/) and [Node.js](https://nodejs.org/en) installed. To learn how to use the terminal please [see this tutorial](https://www.marktechpost.com/2025/04/01/the-complete-beginners-guide-to-terminal-command-prompt/).
@@ -49,4 +49,4 @@ To stop the script use this command using a terminal in the project directory:
 ```bash
 pm2 stop process.js
 ```
-Other commands include `restart`, `stop`, and `delete`. Please see the [pm2 npm page](https://www.npmjs.com/package/pm2) for more info.
+Other commands include `restart`, `stop`, and `delete`. Please see the [pm2 npm page](https://www.npmjs.com/package/pm2) and [pm2 docs](https://pm2.keymetrics.io/docs/usage/quick-start/) for more info.
