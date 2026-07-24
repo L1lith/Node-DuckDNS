@@ -2,7 +2,7 @@
 This is a DuckDNS client in ~50 lines of non-uglified code with only 2 dependencies, making it easy to trust and easy to use anywhere NodeJS is supported.
 
 ## Getting Started
-Note: these instructions expect that you can figure out very basic terminal usage (particularly the cd command), as well as have [git](https://git-scm.com/) and [Node.js](https://nodejs.org/en) installed.
+Note: these instructions expect that you can figure out very basic terminal usage (particularly the `cd` command), as well as have [git](https://git-scm.com/) and [Node.js](https://nodejs.org/en) installed. To learn how to use the terminal please [see this tutorial](https://www.marktechpost.com/2025/04/01/the-complete-beginners-guide-to-terminal-command-prompt/).
 ### Step 1: Clone the repo
 ```bash
 git clone https://github.com/L1lith/Node-Duck-DNS
