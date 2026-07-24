@@ -15,7 +15,7 @@ npm install
 ```
 
 ### Step 3: Configure the credentials
-Write your configuration settings to `credentials.json` using the following format:
+Write your configuration settings to `credentials.json` using the below format. Copy and paste it then replace the values on the right side with your own unique domain and token:
 ```json
 {
     "token": "jow4235-253j-j25i-pi35-oj235oi2j35o",
@@ -24,7 +24,7 @@ Write your configuration settings to `credentials.json` using the following form
 ```
 
 ### Step 4: Schedule the script
-First install pm2 for handling scheduling
+First install pm2 for handling scheduling:
 ```bash
 npm install -g pm2
 ```
