@@ -8,7 +8,12 @@ git clone https://github.com/L1lith/Node-Duck-DNS
 ```
 make sure to cd into the directory in your terminal afterwards
 
-### Step 2: Configure the credentials
+### Step 2: Install the dependencies
+```bash
+npm install
+```
+
+### Step 3: Configure the credentials
 Write your configuration settings to `credentials.json` using the following format:
 ```json
 {
@@ -17,7 +22,7 @@ Write your configuration settings to `credentials.json` using the following form
 }
 ```
 
-### Step 3: Schedule the script
+### Step 4: Schedule the script
 First install pm2 for handling scheduling
 ```bash
 npm install -g pm2
