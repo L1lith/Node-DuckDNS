@@ -1,7 +1,7 @@
 {
   "name": "nodeduckdns",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "main": "update.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "public-ip": "^8.0.0"
+  }
 }
