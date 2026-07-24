@@ -33,6 +33,15 @@ Next tell PM2 to run the process eternally:
 pm2 start process.js
 ```
 
+Next if you'd like to make it start automatically on your device's boot you'll have to enable PM2 startup integration. This depends on which operating system you use.
+
+If you use Windows: [Follow these install instructions](https://github.com/jessety/pm2-installer#install)
+
+If you use anything else run this command:
+```
+pm2 startup
+```
+
 ## Stopping the script
 To stop the script use this command using a terminal in the project directory:
 ```bash
