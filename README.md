@@ -23,7 +23,7 @@ Write your configuration settings to `credentials.json` using the below format. 
 }
 ```
 
-### Step 4: Schedule the script
+### Step 4: Schedule the script to launch on boot
 First install pm2 for handling scheduling:
 ```bash
 npm install -g pm2
