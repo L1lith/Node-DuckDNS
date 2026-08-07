@@ -45,6 +45,11 @@ Option B - If you use **Linux, Mac or anything else** run this command:
 pm2 startup
 ```
 
+**Lastly**, on all operating systems you will need to save your pm2 process list, which tells pm2 to save your process to it's startup sequence.
+```bash
+pm2 save
+```
+
 ## Stopping the script
 To stop the script use this command using a terminal in the project directory:
 ```bash
